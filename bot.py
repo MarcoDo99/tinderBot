@@ -7,7 +7,7 @@ import random
 def run():
     while(True):
         random1 = random.random()
-        if random1 > 0.55:
+        if random1 > 0.30:
             like()
             handle_match()
         else:
